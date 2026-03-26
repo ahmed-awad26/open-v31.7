@@ -229,7 +229,7 @@ private fun VaultCard(
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .combinedClickable(onClick = onUse, onLongClick = onLongSelect),
+            .combinedClickable(onClick = onUse, onLongClick = onLongSelect)
             .padding(0.dp),
         border = if (isSelected) BorderStroke(2.dp, MaterialTheme.colorScheme.primary) else null,
         colors = CardDefaults.cardColors(
